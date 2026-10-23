@@ -1,0 +1,614 @@
+{
+ "name": "Shatterpop art kit",
+ "version": "v1",
+ "date": "2026-10-14",
+ "palette": {
+  "bg": [
+   "#2B1B3D",
+   "#45285E",
+   "#1C102B"
+  ],
+  "peach": "#FF9E7A",
+  "mint": "#6FE3C1",
+  "lilac": "#B79CFF",
+  "honey": "#FFC94D",
+  "berry": "#FF6F9C",
+  "ice": "#D9F3FF",
+  "cream": "#FFF4E0"
+ },
+ "grid": {
+  "cols": 8,
+  "rows": 10
+ },
+ "ai_generated": false,
+ "files": [
+  {
+   "file": "FX_SPEC.md",
+   "bytes": 6439,
+   "use": "FX timing spec for Maker",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "SOUND_CUES.md",
+   "bytes": 2848,
+   "use": "Sound cue list",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_berry.svg",
+   "bytes": 1532,
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_berry@1x.png",
+   "bytes": 2480,
+   "px": "64x64",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_berry@2x.png",
+   "bytes": 5079,
+   "px": "128x128",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_berry@3x.png",
+   "bytes": 7316,
+   "px": "192x192",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_honey.svg",
+   "bytes": 1532,
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_honey@1x.png",
+   "bytes": 2549,
+   "px": "64x64",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_honey@2x.png",
+   "bytes": 5307,
+   "px": "128x128",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_honey@3x.png",
+   "bytes": 7659,
+   "px": "192x192",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_lilac.svg",
+   "bytes": 1532,
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_lilac@1x.png",
+   "bytes": 2257,
+   "px": "64x64",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_lilac@2x.png",
+   "bytes": 4739,
+   "px": "128x128",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_lilac@3x.png",
+   "bytes": 6651,
+   "px": "192x192",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_mint.svg",
+   "bytes": 1532,
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_mint@1x.png",
+   "bytes": 2574,
+   "px": "64x64",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_mint@2x.png",
+   "bytes": 4975,
+   "px": "128x128",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_mint@3x.png",
+   "bytes": 7608,
+   "px": "192x192",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_peach.svg",
+   "bytes": 1532,
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_peach@1x.png",
+   "bytes": 2439,
+   "px": "64x64",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_peach@2x.png",
+   "bytes": 5001,
+   "px": "128x128",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/block_peach@3x.png",
+   "bytes": 7592,
+   "px": "192x192",
+   "use": "Gummy block sprite (cell). Colors map to the game's GummyColor index: peach=0 mint=1 lilac=2 honey=3 berry=4",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/overlay_frost_aging.svg",
+   "bytes": 556,
+   "use": "Aging frost overlay on gummies; opacity = age/setTimer",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/overlay_frost_aging@1x.png",
+   "bytes": 1196,
+   "px": "64x64",
+   "use": "Aging frost overlay on gummies; opacity = age/setTimer",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/overlay_frost_aging@2x.png",
+   "bytes": 2271,
+   "px": "128x128",
+   "use": "Aging frost overlay on gummies; opacity = age/setTimer",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "blocks/overlay_frost_aging@3x.png",
+   "bytes": 3266,
+   "px": "192x192",
+   "use": "Aging frost overlay on gummies; opacity = age/setTimer",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "board/background.svg",
+   "bytes": 3248,
+   "use": "Portrait 1080x1920 plum background (bokeh)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "board/background_1080x1920.jpg",
+   "bytes": 48069,
+   "px": "1080x1920",
+   "use": "Portrait 1080x1920 plum background (bokeh)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "board/background_1080x1920.png",
+   "bytes": 201344,
+   "px": "1080x1920",
+   "use": "Portrait 1080x1920 plum background (bokeh)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "board/board_frame.png",
+   "bytes": 48610,
+   "px": "952x1216",
+   "use": "Candy-jar board frame, 8x10 grid; 112px cell pitch, 28px pad, 40px top lip offset (at full size 952x1216)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "board/board_frame.svg",
+   "bytes": 15123,
+   "use": "Candy-jar board frame, 8x10 grid; 112px cell pitch, 28px pad, 40px top lip offset (at full size 952x1216)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "board/board_frame@half.png",
+   "bytes": 19670,
+   "px": "476x608",
+   "use": "Candy-jar board frame, 8x10 grid; 112px cell pitch, 28px pad, 40px top lip offset (at full size 952x1216)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "build_art.py",
+   "bytes": 25558,
+   "use": "Generator script (re-run to rebuild every asset from SVG)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_cracked.svg",
+   "bytes": 2387,
+   "use": "Cracked crystal cell, 1 HP",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_cracked@1x.png",
+   "bytes": 3094,
+   "px": "64x64",
+   "use": "Cracked crystal cell, 1 HP",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_cracked@2x.png",
+   "bytes": 6793,
+   "px": "128x128",
+   "use": "Cracked crystal cell, 1 HP",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_cracked@3x.png",
+   "bytes": 11568,
+   "px": "192x192",
+   "use": "Cracked crystal cell, 1 HP",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_intact.svg",
+   "bytes": 1854,
+   "use": "Crystal cell, 2 HP",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_intact@1x.png",
+   "bytes": 2933,
+   "px": "64x64",
+   "use": "Crystal cell, 2 HP",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_intact@2x.png",
+   "bytes": 6450,
+   "px": "128x128",
+   "use": "Crystal cell, 2 HP",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_intact@3x.png",
+   "bytes": 11293,
+   "px": "192x192",
+   "use": "Crystal cell, 2 HP",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_shatter_sheet@1x.png",
+   "bytes": 10514,
+   "px": "576x96",
+   "use": "Shatter animation sprite sheet, 6 frames horizontal, frame = 1.5x cell (96px @1x); 50ms/frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_shatter_sheet@2x.png",
+   "bytes": 25699,
+   "px": "1152x192",
+   "use": "Shatter animation sprite sheet, 6 frames horizontal, frame = 1.5x cell (96px @1x); 50ms/frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/crystal_shatter_sheet@3x.png",
+   "bytes": 41447,
+   "px": "1728x288",
+   "use": "Shatter animation sprite sheet, 6 frames horizontal, frame = 1.5x cell (96px @1x); 50ms/frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_01.svg",
+   "bytes": 2054,
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_01@2x.png",
+   "bytes": 2323,
+   "px": "192x192",
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_02.svg",
+   "bytes": 2160,
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_02@2x.png",
+   "bytes": 7591,
+   "px": "192x192",
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_03.svg",
+   "bytes": 2165,
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_03@2x.png",
+   "bytes": 6889,
+   "px": "192x192",
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_04.svg",
+   "bytes": 2105,
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_04@2x.png",
+   "bytes": 4220,
+   "px": "192x192",
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_05.svg",
+   "bytes": 2104,
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_05@2x.png",
+   "bytes": 2647,
+   "px": "192x192",
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_06.svg",
+   "bytes": 2099,
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "crystal/shatter/crystal_shatter_06@2x.png",
+   "bytes": 604,
+   "px": "192x192",
+   "use": "Individual shatter frame",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_row_glow.png",
+   "bytes": 6420,
+   "px": "512x128",
+   "use": "Line-clear glow strip; stretch along the row/column",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_row_glow.svg",
+   "bytes": 422,
+   "use": "Line-clear glow strip; stretch along the row/column",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_shard.svg",
+   "bytes": 232,
+   "use": "Crystal shard particle",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_shard@1x.png",
+   "bytes": 414,
+   "px": "16x16",
+   "use": "Crystal shard particle",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_shard@2x.png",
+   "bytes": 553,
+   "px": "32x32",
+   "use": "Crystal shard particle",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_shard@3x.png",
+   "bytes": 617,
+   "px": "48x48",
+   "use": "Crystal shard particle",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_sparkle.svg",
+   "bytes": 424,
+   "use": "Row-clear sparkle particle (additive)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_sparkle@1x.png",
+   "bytes": 572,
+   "px": "32x32",
+   "use": "Row-clear sparkle particle (additive)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_sparkle@2x.png",
+   "bytes": 1203,
+   "px": "64x64",
+   "use": "Row-clear sparkle particle (additive)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_sparkle@3x.png",
+   "bytes": 1626,
+   "px": "96x96",
+   "use": "Row-clear sparkle particle (additive)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_sparkle_honey.svg",
+   "bytes": 424,
+   "use": "Honey-tinted sparkle particle",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_sparkle_honey@1x.png",
+   "bytes": 649,
+   "px": "32x32",
+   "use": "Honey-tinted sparkle particle",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_sparkle_honey@2x.png",
+   "bytes": 1522,
+   "px": "64x64",
+   "use": "Honey-tinted sparkle particle",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "fx/fx_sparkle_honey@3x.png",
+   "bytes": 2174,
+   "px": "96x96",
+   "use": "Honey-tinted sparkle particle",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "mascot/pop_cheer.svg",
+   "bytes": 2891,
+   "use": "Pop mascot, cheer pose (arms up, sparkles)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "mascot/pop_cheer_256.png",
+   "bytes": 10307,
+   "px": "256x256",
+   "use": "Pop mascot, cheer pose (arms up, sparkles)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "mascot/pop_cheer_512.png",
+   "bytes": 24325,
+   "px": "512x512",
+   "use": "Pop mascot, cheer pose (arms up, sparkles)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "mascot/pop_idle.svg",
+   "bytes": 2511,
+   "use": "Pop mascot, idle pose",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "mascot/pop_idle_256.png",
+   "bytes": 9385,
+   "px": "256x256",
+   "use": "Pop mascot, idle pose",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "mascot/pop_idle_512.png",
+   "bytes": 22024,
+   "px": "512x512",
+   "use": "Pop mascot, idle pose",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "mock_screen.png",
+   "bytes": 230382,
+   "px": "1080x1920",
+   "use": "Composed mock game screen (1080x1920)",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "powerups/icon_bomb.svg",
+   "bytes": 1275,
+   "use": "Bomb power-up icon",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "powerups/icon_bomb@1x.png",
+   "bytes": 2448,
+   "px": "64x64",
+   "use": "Bomb power-up icon",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "powerups/icon_bomb@2x.png",
+   "bytes": 4277,
+   "px": "128x128",
+   "use": "Bomb power-up icon",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "powerups/icon_bomb@3x.png",
+   "bytes": 6181,
+   "px": "192x192",
+   "use": "Bomb power-up icon",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "powerups/icon_icebreaker.svg",
+   "bytes": 1648,
+   "use": "Icebreaker power-up icon",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "powerups/icon_icebreaker@1x.png",
+   "bytes": 2542,
+   "px": "64x64",
+   "use": "Icebreaker power-up icon",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "powerups/icon_icebreaker@2x.png",
+   "bytes": 4574,
+   "px": "128x128",
+   "use": "Icebreaker power-up icon",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "powerups/icon_icebreaker@3x.png",
+   "bytes": 6672,
+   "px": "192x192",
+   "use": "Icebreaker power-up icon",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "preview.png",
+   "bytes": 112599,
+   "px": "1320x1300",
+   "use": "Contact sheet of all assets",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "ui/piece_tray.png",
+   "bytes": 4456,
+   "px": "1000x300",
+   "use": "3-slot piece tray panel",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  },
+  {
+   "file": "ui/piece_tray.svg",
+   "bytes": 1215,
+   "use": "3-slot piece tray panel",
+   "source": "hand-built SVG via Python/cairosvg (no AI generation)"
+  }
+ ]
+}
