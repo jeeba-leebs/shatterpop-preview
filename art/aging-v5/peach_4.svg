@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><defs><linearGradient id="rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D1E5F8"/><stop offset="1" stop-color="#B2D4F3"/></linearGradient>
-<radialGradient id="fr" cx="0.5" cy="0.5" r="0.72"><stop offset="0.6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0.75"/></radialGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><defs><linearGradient id="peach_4-rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D1E5F8"/><stop offset="1" stop-color="#B2D4F3"/></linearGradient>
+<radialGradient id="peach_4-fr" cx="0.5" cy="0.5" r="0.72"><stop offset="0.6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0.75"/></radialGradient></defs>
 <rect x="6" y="10" width="116" height="114" rx="24" fill="#000" opacity="0.22"/>
 <rect x="6" y="6" width="116" height="114" rx="24" fill="#8CA8C2"/>
-<rect x="9" y="8" width="110" height="104" rx="21" fill="url(#rb)"/>
-<rect x="9" y="8" width="110" height="104" rx="21" fill="url(#fr)"/>
+<rect x="9" y="8" width="110" height="104" rx="21" fill="url(#peach_4-rb)"/>
+<rect x="9" y="8" width="110" height="104" rx="21" fill="url(#peach_4-fr)"/>
 <rect x="11" y="10" width="106" height="100" rx="19" fill="none" stroke="#FF9E7A" stroke-width="3" opacity="0.55"/></svg>

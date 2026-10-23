@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><defs><linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A1EDD7"/><stop offset="0.45" stop-color="#6FE3C1"/><stop offset="1" stop-color="#62C8AA"/></linearGradient>
-<linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#62C8AA"/><stop offset="1" stop-color="#458D78"/></linearGradient>
-<radialGradient id="glow" cx="0.5" cy="0.62" r="0.55"><stop offset="0" stop-color="#fff" stop-opacity="0.35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
-<linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0.03"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><defs><linearGradient id="mint_2-body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A1EDD7"/><stop offset="0.45" stop-color="#6FE3C1"/><stop offset="1" stop-color="#62C8AA"/></linearGradient>
+<linearGradient id="mint_2-edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#62C8AA"/><stop offset="1" stop-color="#458D78"/></linearGradient>
+<radialGradient id="mint_2-glow" cx="0.5" cy="0.62" r="0.55"><stop offset="0" stop-color="#fff" stop-opacity="0.35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<linearGradient id="mint_2-gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0.03"/></linearGradient></defs>
 <rect x="6" y="10" width="116" height="114" rx="26" fill="#000" opacity="0.22"/>
-<rect x="6" y="6" width="116" height="114" rx="26" fill="url(#edge)"/>
-<rect x="9" y="8" width="110" height="104" rx="23" fill="url(#body)"/>
-<rect x="9" y="8" width="110" height="104" rx="23" fill="url(#glow)"/>
-<path d="M22 14 H106 Q114 14 114 24 V34 Q64 46 14 34 V24 Q14 14 22 14 Z" fill="url(#gloss)"/>
+<rect x="6" y="6" width="116" height="114" rx="26" fill="url(#mint_2-edge)"/>
+<rect x="9" y="8" width="110" height="104" rx="23" fill="url(#mint_2-body)"/>
+<rect x="9" y="8" width="110" height="104" rx="23" fill="url(#mint_2-glow)"/>
+<path d="M22 14 H106 Q114 14 114 24 V34 Q64 46 14 34 V24 Q14 14 22 14 Z" fill="url(#mint_2-gloss)"/>
 <ellipse cx="28" cy="24" rx="7" ry="4" fill="#fff" opacity="0.9"/>
 <rect x="9.5" y="8.5" width="109" height="103" rx="23" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="1.5"/><circle cx="71.5" cy="52.5" r="4.0" fill="#85E7CA" opacity="0.5"/><circle cx="71.5" cy="52.5" r="3.2" fill="#BEF2E3" opacity="0.85"/><circle cx="103.0" cy="69.9" r="3.7" fill="#85E7CA" opacity="0.5"/><circle cx="103.0" cy="69.9" r="2.9" fill="#BEF2E3" opacity="0.85"/><circle cx="37.7" cy="54.2" r="3.3" fill="#85E7CA" opacity="0.5"/><circle cx="37.7" cy="54.2" r="2.5" fill="#BEF2E3" opacity="0.85"/><circle cx="81.7" cy="53.6" r="4.0" fill="#85E7CA" opacity="0.5"/><circle cx="81.7" cy="53.6" r="3.2" fill="#BEF2E3" opacity="0.85"/><circle cx="24.5" cy="52.4" r="3.1" fill="#85E7CA" opacity="0.5"/><circle cx="24.5" cy="52.4" r="2.3" fill="#BEF2E3" opacity="0.85"/><circle cx="88.8" cy="63.5" r="3.5" fill="#85E7CA" opacity="0.5"/><circle cx="88.8" cy="63.5" r="2.7" fill="#BEF2E3" opacity="0.85"/><circle cx="48.0" cy="80.8" r="3.4" fill="#85E7CA" opacity="0.5"/><circle cx="48.0" cy="80.8" r="2.6" fill="#BEF2E3" opacity="0.85"/><circle cx="37.2" cy="67.5" r="3.3" fill="#85E7CA" opacity="0.5"/><circle cx="37.2" cy="67.5" r="2.5" fill="#BEF2E3" opacity="0.85"/></svg>
